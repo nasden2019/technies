@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  color: brown;
+}
+
+.icon {
+  width: 38px;
+}
+
+a {
+  font-size: 1.1rem;
+}
+
+nav {
+  background: black;
+  color: white !important;
+}
+
+nav a {
+  color: white !important;
+}
+
+nav .ulDesktop {
+  height: 100vh;
+  background: black;
+  margin-top: 10px;
+}
+
+nav .ulDesktop a {
+  color: white !important;
+  font-size: 1.2rem;
+  margin: 17px 0 0 20px;
+}
+
+nav .ulDesktop hr {
+  color: white !important;
+}
+
+.firstSection {
+  background: black;
+  height: 100vh;
+}
+
+.firstSection .robot {
+  padding-top: 60px;
+}
+
+.firstSection h2 {
+  margin: 25px 0;
+  color: #7f7fe7;
+  text-align: center;
+  font-weight: 700;
+}
+
+.firstSection p {
+  text-align: center;
+  color: #7f7fe7;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 700px) {
+  .firstSection .robot {
+    height: 80vh;
+  }
+  .firstSection p {
+    padding-bottom: 110px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .firstSection .robot {
+    margin-top: 65px;
+  }
+}
+
+.secondSection span {
+  color: orange;
+}
+
+.secondSection p {
+  font-size: 1.2rem;
+}
+
+.thirdSection {
+  margin: 100px 0;
+}
+
+.thirdSection p {
+  font-size: 1.2rem;
+}
+
+.sectionFourth span {
+  color: orange;
+}
+
+.sectionFourth a {
+  margin-bottom: 15px;
+}
+
+.sectionFourth .icon6 {
+  width: 125px;
+}
+
+.fifthSection {
+  background: black;
+}
+
+.fifthSection .poster {
+  height: 190px !important;
+}
+
+.fifthSection .texto-sect5 {
+  margin-top: 80px !important;
+}

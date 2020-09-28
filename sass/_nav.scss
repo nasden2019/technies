@@ -1,0 +1,27 @@
+nav {
+
+    // background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background: black;
+    color: white !important;
+
+    a {
+        color: white !important;
+    }
+
+    .ulDesktop {
+        height: 100vh;
+        background: black;
+        margin-top: 10px;
+
+        a {
+            color: white !important;
+            font-size: 1.2rem;
+            margin: 17px 0 0 20px;
+        }
+
+        hr {
+            color: white !important;
+        }
+    }
+
+}

@@ -1,0 +1,34 @@
+.firstSection {
+    // background: rgb(240, 240, 240);
+    background: black;
+    height: 100vh;
+
+    .robot {
+        padding-top: 60px;
+    }
+
+    h2 {
+        margin: 25px 0;
+        color: rgb(127, 127, 231);
+        text-align: center;
+        font-weight: 700;
+    }
+
+    p {
+        text-align: center;
+        color: rgb(127, 127, 231);
+        font-size: 1.1rem;
+    }
+
+    @media (min-width: 700px) {
+
+
+        .robot {
+            height: 80vh;
+        }
+
+        p {
+            padding-bottom: 110px !important;
+        }
+    }
+}
